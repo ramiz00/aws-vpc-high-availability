@@ -34,35 +34,48 @@ This repository contains a step-by-step guide to setting up a secure and highly 
 ### VPC Architecture  
 ![VPC Architecture](images/vpc-architecture.png)
 
-### Route Tables  
-![Route Table](images/route-table.png)
+### VPC Subnets  
+![VPC Subnet](images/vpc-subnet.png)
 
-### Bastion SSH Access  
-![Bastion SSH](images/bastion-ssh.png)
+### Security Group  
+![Security Group](images/sec-grp.png)
 
-### Website Deployment with ALB  
-![Website ALB](images/website-lb.png)
+### Instances / Bastion  
+![Instance](images/instance.png)
 
-### VPC Peering Setup  
+### Application Load Balancer (ALB)  
+![ALB](images/alb.png)
+
+### Website (live screenshot)  
+![Website Live](images/website-ss-live.png)
+
+### VPC Peering (primary)  
 ![VPC Peering](images/vpc-peering.png)
+
+### VPC Peering (Oregon / cross-region)  
+![VPC Peering Oregon](images/vpc-peering-oregon.png)
 
 ---
 
 ## 📂 Folder Structure
 
 aws-vpc-high-availability/
-├── README.md
-├── vpc-setup.md
-├── bastion-host.md
-├── website-deployment.md
-├── vpc-peering.md
-├── cost-optimization.md
-└── images/
-├── vpc-architecture.png
-├── route-table.png
-├── bastion-ssh.png
-├── website-lb.png
-└── vpc-peering.png
+├── README.md  
+├── vpc-setup.md  
+├── bastion-host.md  
+├── website-deployment.md  
+├── vpc-peering.md  
+├── cost-optimization.md  
+└── images/  
+    ├── alb.png  
+    ├── instance.png  
+    ├── sec-grp.png  
+    ├── vpc-architecture.png  
+    ├── vpc-peering-oregon.png  
+    ├── vpc-peering.png  
+    ├── vpc-subnet.png  
+    └── website-ss-live.png
+
 
 ---
 
@@ -86,7 +99,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📬 Contact
 
 Connect with me on [LinkedIn](https://linkedin.com/in/your-profile)  
-Check out the full tutorial and diagrams here: [GitHub Repository](https://github.com/your-username/aws-vpc-high-availability)
+Check out the full tutorial and diagrams here: [GitHub Repository](https://github.com/ramiz00/aws-vpc-high-availability)
 
 ---
 Happy Learning! 🚀
