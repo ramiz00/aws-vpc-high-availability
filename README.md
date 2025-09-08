@@ -98,7 +98,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-Connect with me on [LinkedIn](https://linkedin.com/in/your-profile)  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/ramiz-raja-951829169/)  
 Check out the full tutorial and diagrams here: [GitHub Repository](https://github.com/ramiz00/aws-vpc-high-availability)
 
 ---
