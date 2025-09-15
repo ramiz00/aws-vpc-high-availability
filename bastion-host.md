@@ -39,6 +39,7 @@ A Bastion Host allows you to securely connect to EC2 instances in a private subn
 
 ```bash
 ssh -i vprof-bastion-kp.pem ubuntu@<Public_IP_of_Bastion>
+```
 
 ---
 
@@ -51,6 +52,8 @@ scp -i Vprof-Basiton-KP.pem web-key.pem ubuntu@<Public_IP_of_Bastion>:/home/ubun
 **From Bastion Host, connect using:**
 
 ssh -i web-key.pem ec2-user@<Private_IP_of_Private_Instance>
+
+---
 
 ✅ Notes
 
