@@ -86,6 +86,7 @@ Steps:
 
 ### ✅ Notes
 - AWS reserves 5 IPs per subnet → usable IPs: 251.
+- Reserved: .0 (network), .1 (VPC router), .2 (Amazon DNS), .3 (future use), .255 (broadcast)
 - Public subnets can access the internet directly.
 - Private subnets access the internet through the NAT Gateway.
 
