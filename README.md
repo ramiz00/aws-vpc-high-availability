@@ -78,6 +78,18 @@ aws-vpc-high-availability/
 
 
 ---
+## ✅ Recommended reading order (follow this guide)
+
+Follow these files in order for a smooth hands‑on lab:
+
+1. vpc-setup.md — Build the VPC, create subnets, IGW, route tables, and NAT Gateway.  
+2. bastion-host.md — Configure the bastion (jump) host and learn the SSH workflow.  
+3. website-deployment.md — Deploy the web server in private subnets, create ALB and target group, and configure security groups.  
+4. vpc-peering.md — Set up VPC peering and update route tables for cross‑VPC connectivity.  
+5. cost-optimization.md — Review cost-saving options and cleanup steps.  
+6. images/ — Open the diagrams referenced in each guide while reading.
+
+Tip: Read vpc-setup.md fully before launching resources; use bastion-host.md during website deployment.
 
 ## 💡 Technologies Used
 
