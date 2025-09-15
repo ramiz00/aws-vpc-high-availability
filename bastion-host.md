@@ -46,19 +46,21 @@ ssh -i vprof-bastion-kp.pem ubuntu@<Public_IP_of_Bastion>
 ## ✅ Step 5 – Connect to Private Instance
 
 - Create another key pair → web-key.pem.
+
 ```bash
 scp -i Vprof-Basiton-KP.pem web-key.pem ubuntu@<Public_IP_of_Bastion>:/home/ubuntu 
+```
 
 **From Bastion Host, connect using:**
 
+```bash
 ssh -i web-key.pem ec2-user@<Private_IP_of_Private_Instance>
+```
 
 ---
 
 ✅ Notes
 
-Bastion Host acts as a jump server.
-
-Restrict SSH access using security groups.
-
-Always use key pairs for secure authentication.
+- Bastion Host acts as a jump server.
+- Restrict SSH access using security groups.
+- Always use key pairs for secure authentication.
